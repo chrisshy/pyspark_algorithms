@@ -1,13 +1,15 @@
-This project contains codes for many algorithms. They are all implemented for large datasets by pyspark and more efficient methods:
+This project was based on Yelp Dataset and they were all implemented for large datasets by pyspark and efficient algorithms.
 
-For privacy consideration, all codes are not uploaded on Github AND if you would like to talk about these algorithms below with me, please contact me with email: hongyi.shao.2022@marshall.usc.edu
+Dataset Overview:https://www.yelp.com/dataset/documentation/main
+
+Because of privacy consideration and the requiement of our professor, all codes should not be uploaded on Github AND if you would like to have a look at my codes or  discuss with me about these algorithms, please contact me with email: hongyis@marshall.usc.edu and I will sent you a copy of my codes.
 
 1. Association rules: Apriori + PCY optimization + SON algorithms
  -PCY: Create a bit-array to make full use of the ram in the first pass
  -SON: Avoids false negatives and false positives, requires two full passes over data
 
 2. Recommendation System: Neighborhood-based/user-based/item-based collaborating filtering + Jaccard + Pearson Corr + memory-based
- -Jaccard/pearson Corr: A similarity measure
+ -Jaccard/pearson Corr: A similarity measurement
  -Memory-based: Case Amplification
 
 3. Community/Social Network Detection: Girvan-Newman Algorithm + Modularity Evaluation + Hierarchical Decomposition
